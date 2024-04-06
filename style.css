@@ -1,7 +1,6 @@
 *{
     margin: 0;
 }
-
 .hero{
     background-color: #1f2937;
     align-items: center;
@@ -17,8 +16,6 @@
     padding: 16px;
     border-bottom: 40px;
 }
-
-
 .logo{
     display: flex;
     color: #f9faf8;
@@ -33,7 +30,6 @@
     display: flex;
     
 }
-
 #navul{
     display: flex;
     justify-content: space-between;
@@ -68,7 +64,7 @@
     padding-bottom: 10px;
 }
 
-.hero-left > button{
+.hero-left > button, .action-right > button{
     background-color: #3882f6;
     border-radius: 8px;
     color: #f9faf8;
@@ -79,10 +75,114 @@
 }
 
 .hero-right{
+
     display: flex;
     background-color: gray;
     align-items: center;
     justify-content: center;
     min-width: 400px;
     min-height: 250px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 62px;
+}
+
+.image {
+    max-width: 150px;
+    max-height: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.infotext{
+    padding: 40px;
+    font-size: 36px;
+    color: #1f2937;
+}
+.image img{
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: #3882f6;
+    border-style: solid;
+}
+
+.image-text{
+    max-width: 150px;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    max-width: 850px;
+    color: #1f2937;
+}
+
+.cite{
+    margin-top: 10px;
+    text-align: right;
+    width: 100%;
+    max-width: 800px;
+
+}
+
+.action{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 20px;
+    margin: 100px 200px;
+    border-radius: 20px;
+}
+
+.action1{
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 20px;
+}
+.action2{
+    color: #e5e7ebc9;
+    padding-top: 5px;
+}
+
+.action-right > button{
+    border-color: white;
+    border-style: solid;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 20px;
+    padding: 16px;
 }
